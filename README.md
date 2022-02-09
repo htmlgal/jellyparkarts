@@ -3,9 +3,7 @@ http://personal.psu.edu/jsp5685/comm270/final/index.html
 project for comm 270
 
 **my first coding project**
-🌟 worked from august - december on a basic website displaying my artwork as a means to gain customers. 
-🌟 used html and css
-🌟 worked with media queries
+🌟 worked from august - december on a basic website displaying my artwork as a means to gain customers. used html and css. worked with media queries
 
 **notes:**
 - learned html and css through codecademy
