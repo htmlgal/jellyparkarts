@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jelly Park | Contact Me</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+	<header>
+	<a href="index.html"><img src="jellylogo.png" alt="Jelly Park logo" id="logo"></a>
+	</header>
+	
+	<nav>
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="multimedia.html">Multimedia</a></li>
+		<li><a href="process.html">Process</a></li>
+		<li><a href="instagram.html">Instagram</a></li>
+		<li><a href="contactme.html">Contact Me</a></li>
+		</ul>
+		
+	</nav>
+	<main>
+	<div>
+	<div class="contact_1">
+		
+	<div class="contactheading">
+	<h1>Contact me</h1>
+	<p>You can contact me through my email, jparkarts3@gmail.com, or reach out via this contact form:</p>
+	</div>
+		
+	<div class="contactbox">
+		
+	<div class="actual_form">
+	<form action="http://php.scripts.psu.edu/cub15/comm270/form_enumerate.php" method="post">
+	
+	<fieldset>
+	<legend>Contact info</legend>
+	<div class="contactinfo">
+	<label for="firstn">Name</label>
+	<input type="text" id="firstn" name="firstn" required>
+	</div>
+	<div class="contactinfo">	
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" required>
+	</div>
+	<div class="contactinfo">
+	<label for="othercontact">Other contact:</label>
+	<input type="instagram" id="instagram" name="instagram">
+	</div>	
+	</fieldset>
+		
+	<fieldset>
+	<legend>Reason for contact</legend>
+	<div>
+	<input type="checkbox" id="client" name="client" value="client">
+	<label for="interested">Interested client</label>
+	</div>	
+	<div>
+	<input type="checkbox" id="use" name="use" value="use">
+	<label for="use">Use of art</label>
+	</div>
+	<div>
+	<input type="checkbox" id="other" name="other" value="other">
+	<label for="other">Other</label>
+	</div>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Message:</legend>
+	<div>
+	<textarea name="message" id="message" required></textarea>
+	</div>
+	</fieldset>
+		
+	<fieldset>
+	<legend>What type of artwork are you looking for?</legend>
+	<div>
+	<select id="selection">
+		<option>Digital commission</option>
+		<option>Painting</option>
+		<option>Drawing</option>
+		<option>Tattoo Design</option>
+		<option>Logo Design</option>
+		<option>N/A</option>
+	</select>
+	</div>
+	</fieldset>
+	<fieldset>
+	<legend>Student at PSU Beaver?</legend>
+	<div>
+	<input type="radio" id="yes" name="student" value="yes" >
+	<label for="yes">Yes</label>
+	</div>
+	<div>
+	<input type="radio" id="no" name="student" value="no" >
+	<label for="no">No</label>
+	</div>
+	</fieldset>
+	<div>
+	<button type="submit">Submit</button>
+	</div>
+	</form>
+	</div> <!--end of "actual_form" class-->
+	
+	<div class="contactdrawing">
+	<img src="images/contactpic.png" alt="drawing of two fish in an aquarium">
+	</div>
+		
+	</div><!--end of "contact box" class-->
+		</div><!--end of "contact" class-->
+	</div>
+	</main>
+	
+	<footer>
+    <div> 
+    <p> 
+		<a href="https://www.instagram.com/jellyparkarts/" target="_blank"><img src="images/logos/ig.png" alt="Instagram logo" class="logos"></a> 
+		<a href="https://twitter.com/jellyparkarts" target="_blank"><img src="images/logos/tw.png" alt="Twitter logo" class="logos"></a> <a href="https://www.linkedin.com/in/jane-park/" target="_blank"><img src="images/logos/link.png" alt="Linkedin logo" class="logos"></a> 
+		<a href="mailto: jparkarts3@gmail.com"><img src="images/logos/email.png" alt="email logo" class="logos"></a>
+	</p>
+    <p class="footertext">Jane Park &#169; 2021</p>
+    </div>
+  </footer>
+</div> <!--end of container class-->
+	</body>
+</html>
